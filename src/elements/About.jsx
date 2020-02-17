@@ -91,7 +91,7 @@ class About extends Component{
                 {/* End Finding Us Area  */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area bg_color--1 ptb--120">
+                {/* <div className="rn-team-area bg_color--1 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -102,9 +102,9 @@ class About extends Component{
                             </div>
                         </div>
                         <div className="row">
-                            
+                             */}
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-01.jpg" alt="Blog Images"/>
@@ -119,11 +119,11 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-02.jpg" alt="Blog Images"/>
@@ -138,11 +138,11 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
                             {/* Start Single Team  */}
-                            <div className="col-lg-4 col-md-6 col-sm-6 col-12">
+                            {/* <div className="col-lg-4 col-md-6 col-sm-6 col-12">
                                 <div className="team">
                                     <div className="thumbnail">
                                         <img className="w-100" src="/assets/images/team/team-03.jpg" alt="Blog Images"/>
@@ -157,12 +157,12 @@ class About extends Component{
                                         <li><a href="https://twitter.com/"><FaTwitter /></a></li>
                                     </ul>
                                 </div>
-                            </div>
+                            </div> */}
                             {/* End Single Team  */}
 
-                        </div>
+                        {/* </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}
@@ -174,7 +174,7 @@ class About extends Component{
                 {/* End Testimonial Area */}
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -182,7 +182,7 @@ class About extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
             </React.Fragment>

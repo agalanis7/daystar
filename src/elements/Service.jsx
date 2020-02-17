@@ -39,10 +39,10 @@ class Service extends Component{
     render(){
         return(
             <React.Fragment>
-                <PageHelmet pageTitle='Service' />
+                <PageHelmet pageTitle='Services' />
 
                 {/* Start Breadcrump Area */}
-                <Breadcrumb title={'Service'}   />
+                <Breadcrumb title={'Services'}   />
                 {/* End Breadcrump Area */}
 
                 {/* Start Service Area */}

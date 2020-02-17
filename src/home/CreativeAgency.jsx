@@ -15,13 +15,13 @@ import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 
 const image1 =
-  "/assets/images/bg/paralax/bg-image-3-overlay.jpg";
+  "/assets/images/bg/bg-image-1.jpg";
 
   const SlideList = [
     {
         textPosition: 'text-center',
         category: '',
-        title: 'Creative ',
+        title: 'Construction ',
         description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
@@ -66,7 +66,7 @@ class CreativeAgency extends Component{
         const PostList = BlogContent.slice(0 , 5);
         return(
             <Fragment>
-                <Header logo="light" />
+                <Header logo="dark" />
                 {/* Start Slider Area   */}
                 <div className="slider-activation slider-creative-agency">
                     <Parallax bgImage={image1} strength={1000}>
@@ -96,6 +96,7 @@ class CreativeAgency extends Component{
                     <div className="container">
                         <div className="row creative-service">
                             <div className="col-lg-12">
+                                <h2 className="title">Our Services</h2>
                                 <ServiceList item="6" column="col-lg-4 col-md-6 col-sm-6 col-12 text-left" />
                             </div>
                         </div>
@@ -163,7 +164,7 @@ class CreativeAgency extends Component{
                 {/* End CounterUp Area */}
 
                 {/* Start Team Area  */}
-                <div className="rn-team-area ptb--120 bg_color--5">
+                {/* <div className="rn-team-area ptb--120 bg_color--5">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-6">
@@ -177,7 +178,7 @@ class CreativeAgency extends Component{
                             <Team column="col-lg-4 col-md-6 col-sm-6 col-12" />
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Team Area  */}
 
                 {/* Start Testimonial Area */}
@@ -190,7 +191,7 @@ class CreativeAgency extends Component{
                 
 
                 {/* Start Blog Area */}
-                <div className="rn-blog-area pt--120 pb--140 bg_color--5">
+                {/* <div className="rn-blog-area pt--120 pb--140 bg_color--5">
                     <div className="container">
                         <div className="row align-items-end">
                             <div className="col-lg-6">
@@ -223,12 +224,12 @@ class CreativeAgency extends Component{
                             </div>
                         </div>    
                     </div>    
-                </div>
+                </div> */}
                 {/* End Blog Area */}
 
 
                 {/* Start Brand Area */}
-                <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
+                {/* <div className="rn-brand-area brand-separation bg_color--5 ptb--120">
                     <div className="container">
                         <div className="row">
                             <div className="col-lg-12">
@@ -236,7 +237,7 @@ class CreativeAgency extends Component{
                             </div>
                         </div>
                     </div>
-                </div>
+                </div> */}
                 {/* End Brand Area */}
 
                  {/* Start Footer Style  */}

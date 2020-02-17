@@ -36,15 +36,15 @@ class Header extends Component{
         const { logo, color='default-color' } = this.props;
         let logoUrl;
         if(logo === 'light'){
-            logoUrl = <img src="/assets/images/logo/logo-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/daystar167x79.png" alt="Daystar" />;
         }else if(logo === 'dark'){
-            logoUrl = <img src="/assets/images/logo/logo-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/daystar167x79.png" alt="Daystar" />;
         }else if(logo === 'symbol-dark'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-dark.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/daystar167x79.png" alt="Daystar" />;
         }else if(logo === 'symbol-light'){
-            logoUrl = <img src="/assets/images/logo/logo-symbol-light.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/daystar167x79.png" alt="Daystar" />;
         }else{
-            logoUrl = <img src="/assets/images/logo/logo.png" alt="Digital Agency" />;
+            logoUrl = <img src="/assets/images/logo/daystar167x79.png" alt="Daystar" />;
         }
         
         return(
@@ -60,8 +60,8 @@ class Header extends Component{
                     <div className="header-right">
                         <nav className="mainmenunav d-lg-block">
                             <ul className="mainmenu">
-                                <li className="has-droupdown"><Link to="#">Home</Link>
-                                    <ul className="submenu">
+                                <li><Link to="#">Home</Link>
+                                    {/* <ul className="submenu">
                                         <li><Link to="/main-demo">Main Demo</Link></li>
                                         <li><Link to="/startup">Startup</Link></li>
                                         <li><Link to="/paralax">Paralax</Link></li>
@@ -74,36 +74,39 @@ class Header extends Component{
                                         <li><Link to="/home-particles">Home Particles</Link></li>
                                         <li><Link to="/creative-agency">Creative Agency</Link></li>
                                         <li><Link to="/studio-agency">Studio Agency</Link></li>
-                                    </ul>
+                                    </ul> */}
                                 </li>
-                                <li className="has-droupdown"><Link to="/service" >Service</Link>
+                                <li className="has-droupdown"><Link to="/services" >Services</Link>
                                     <ul className="submenu">
-                                        <li><Link to="/service">Service</Link></li>
-                                        <li><Link to="/service-details">Service Details</Link></li>
+                                        <li><Link to="/kitchens">Kitchens</Link></li>
+                                        <li><Link to="/bathrooms">Bathrooms</Link></li>
+                                        <li><Link to="/additions">Additions</Link></li>
+                                        <li><Link to="/decks">Decks</Link></li>
+                                        <li><Link to="/Basements">Basements</Link></li>
+                                        <li><Link to="/GeneralContracting">General Contracting</Link></li>
                                     </ul>
                                 </li>
-                                <li><Link to="/about" >About</Link></li>
+                                
 
-                                <li className="has-droupdown"><Link to="/blog" >Blog</Link>
+                                {/* <li className="has-droupdown"><Link to="/blog" >Blog</Link>
                                     <ul className="submenu">
                                         <li><Link to="/blog">Blog List</Link></li>
                                         <li><Link to="/blog-details">Blog Details</Link></li>
                                     </ul>
-                                </li>
-                                <li className="has-droupdown"><Link to="#" >Portfolio</Link>
-                                    <ul className="submenu">
-                                        <li><Link to="/portfolio">Portfolio</Link></li>
-                                        <li><Link to="/portfolio-details">Portfolio Details</Link></li>
-                                    </ul>
-                                </li>
+                                </li> */}
+                                
+                                <li><Link to="/portfolio">Portfolio</Link></li>
+
+                                <li><Link to="/about" >About</Link></li>
+                                
                                 <li><Link to="/contact" >Contact</Link></li>
                             </ul>
                         </nav>
-                        <div className="header-btn">
+                        {/* <div className="header-btn">
                             <a className="rn-btn" href="https://themeforest.net/checkout/from_item/25457315?license=regular">
                                 <span>buy now</span>
                             </a>
-                        </div>
+                        </div> */}
                         {/* Start Humberger Menu  */}
                         <div className="humberger-menu d-block d-lg-none pl--20">
                             <span onClick={this.menuTrigger} className="menutrigger text-white"><FiMenu /></span>

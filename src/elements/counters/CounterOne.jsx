@@ -14,16 +14,16 @@ class CounterOne extends Component{
     render(){
         let Data = [
             {
-                countNum : 199,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 285,
+                countTitle: 'Kitchens remodeled',
             },
             {
-                countNum : 575,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 370,
+                countTitle: 'Permits pulled',
             },
             {
-                countNum : 69,
-                countTitle: 'The standard chunk of Lorem Ipsum used since the 1500s is reproduced below for those.',
+                countNum : 1000,
+                countTitle: 'Happy customers',
             },
         ];
 
