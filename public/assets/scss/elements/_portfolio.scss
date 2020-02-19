@@ -35,8 +35,8 @@
         cursor: pointer;
 
         &::before{
-            background-color: #f6004c;
-            background-image: linear-gradient(#f6004c 10%, #000000 100%);
+            background-color: rgba(173,140,10,1);;
+            background-image: linear-gradient(rgba(173,140,10,1) 10%, #000000 100%);
             position: absolute;
             content: "";
             top: 0;

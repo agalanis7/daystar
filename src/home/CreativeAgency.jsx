@@ -22,7 +22,7 @@ const image1 =
         textPosition: 'text-center',
         category: '',
         title: 'Construction ',
-        description: 'There are many variations of passages of Lorem Ipsum available but the majority have suffered alteration.',
+        description: 'We are experts in home renovations.',
         buttonText: 'Contact Us',
         buttonLink: '/contact'
     }

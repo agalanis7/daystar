@@ -27,7 +27,7 @@ class ServiceDetails extends Component{
                             <div className="col-lg-12">
                                 <div className="rn-page-title text-center pt--100">
                                     <h2 className="title theme-gradient">WEBSITE DEVELOPMENT</h2>
-                                    <p>Fresh From The Press Discription</p>
+                                    <p>Fresh From The Press Description</p>
                                 </div>
                             </div>
                         </div>

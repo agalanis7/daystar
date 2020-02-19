@@ -1,34 +1,34 @@
 import React ,{ Component }from "react";
-import { FiCast , FiLayers , FiUsers , FiMonitor } from "react-icons/fi";
+import { FiCast , FiLayers , FiUsers , FiMonitor, FiDroplet, FiTrello, FiMaximize2, FiPause, FiPackage, FiTrendingUp } from "react-icons/fi";
 
 const ServiceList = [
     {
-        icon: <FiCast />,
+        icon: <FiTrello />,
         title: 'Kitchens',
         description: 'They say the kitchen is the heart of the home; we\'re cardiologists.'
     },
     {
-        icon: <FiLayers />,
+        icon: <FiDroplet />,
         title: 'Bathrooms',
         description: 'Bathrooms fit for a king.  When we\'re finished you\'ll have a throne to sit on.'
     },
     {
-        icon: <FiUsers />,
+        icon: <FiMaximize2 />,
         title: 'Additions',
         description: 'We are equipped to handle the most challenging additions.  Trust us, the addition will be your favorite part of your home.'
     },
     { 
-        icon: <FiMonitor />,
+        icon: <FiPause />,
         title: 'Decks',
         description: 'Quality decks that stand the test of time.'
     },
     {
-        icon: <FiUsers />,
+        icon: <FiTrendingUp />,
         title: 'Basements',
         description: 'Increase your home\'s value by turning an unfinished basement into finished living space.'
     },
     { 
-        icon: <FiMonitor />,
+        icon: <FiPackage />,
         title: 'General Contracting',
         description: 'Let us manage your project.  We have great subcontractors from every trade.'
     }

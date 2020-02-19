@@ -54,11 +54,11 @@
 	}
 
 	@else if $value==b {
-		background:-webkit-linear-gradient($deg#{deg}, rgb(251, 110, 57) 12%, rgb(252, 85, 93) 50%, rgb(253, 59, 128) 91%);
-		background:-moz-linear-gradient($deg#{deg}, rgb(251, 110, 57) 12%, rgb(252, 85, 93) 50%, rgb(253, 59, 128) 91%);
-		background:-ms-linear-gradient($deg#{deg}, rgb(251, 110, 57) 12%, rgb(252, 85, 93) 50%, rgb(253, 59, 128) 91%);
-		background:-o-linear-gradient($deg#{deg}, rgb(251, 110, 57) 12%, rgb(252, 85, 93) 50%, rgb(253, 59, 128) 91%);
-		background:linear-gradient($deg#{deg}, rgb(251, 110, 57) 12%, rgb(252, 85, 93) 50%, rgb(253, 59, 128) 91%);
+		background:-webkit-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-moz-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-ms-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-o-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
 		-webkit-background-clip: text;
 		-moz-background-clip: text;
 		-ms-background-clip: text;
@@ -123,19 +123,18 @@
 // Gradient Background
 @mixin gradient-bg($value, $deg) {
 	@if $value==a {
-		background:-webkit-linear-gradient($deg#{deg}, #fe0190 0%, #ed560e 62%, #ff9600 100%);
-		background:-moz-linear-gradient($deg#{deg}, #fe0190 0%, #ed560e 62%, #ff9600 100%);
-		background:-ms-linear-gradient($deg#{deg}, #fe0190 0%, #ed560e 62%, #ff9600 100%);
-		background:-o-linear-gradient($deg#{deg}, #fe0190 0%, #ed560e 62%, #ff9600 100%);
-		background:linear-gradient($deg#{deg}, #fe0190 0%, #ed560e 62%, #ff9600 100%);
-	}
+		background:-webkit-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-moz-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-ms-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-o-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);	}
 
 	@else if $value==b {
-		background:-webkit-linear-gradient($deg#{deg}, rgba(223, 32, 32, 1) 0%, rgba(0, 0, 0, 0.6) 36%, rgba(0, 0, 0, 0.3) 100%);
-		background:-moz-linear-gradient($deg#{deg}, rgba(223, 32, 32, 1) 0%, rgba(0, 0, 0, 0.6) 36%, rgba(0, 0, 0, 0.3) 100%);
-		background:-ms-linear-gradient($deg#{deg}, rgba(223, 32, 32, 1) 0%, rgba(0, 0, 0, 0.6) 36%, rgba(0, 0, 0, 0.3) 100%);
-		background:-o-linear-gradient($deg#{deg}, rgba(223, 32, 32, 1) 0%, rgba(0, 0, 0, 0.6) 36%, rgba(0, 0, 0, 0.3) 100%);
-		background:linear-gradient($deg#{deg}, rgba(223, 32, 32, 1) 0%, rgba(0, 0, 0, 0.6) 36%, rgba(0, 0, 0, 0.3) 100%);
+		background:-webkit-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-moz-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-ms-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:-o-linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
+		background:linear-gradient($deg#{deg}, rgba(173,140,10,1) 0% , rgba(173,140,10,1) 62%, rgba(173,140,10,1) 100%);
 	}
 
 	@else if $value==c {

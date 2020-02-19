@@ -6,8 +6,8 @@ class PageHelmet extends Component{
         return(
             <React.Fragment>
                 <Helmet>
-                    <title>{this.props.pageTitle} || React Creative Agency Template </title>
-                    <meta name="description" content="Aeroland – Multipurpose eCommerce React Template is a multi-use React template. It is designed to go well with multi-purpose websites. Aeroland Bootstrap 4 Template will create that various landing Template." />
+                    <title>{this.props.pageTitle} Daystar Contracting </title>
+                    <meta name="description" content="Daystar Contracting" />
                 </Helmet>
             </React.Fragment>
         )
