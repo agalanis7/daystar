@@ -101,6 +101,7 @@ class Kitchens extends Component{
                     </div>
                 </div>
                 {/* End Page Wrapper */}
+                
             </React.Fragment>
         )
     }

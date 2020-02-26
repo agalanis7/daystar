@@ -2,7 +2,7 @@ import React, { Component } from "react";
 import ScrollToTop from 'react-scroll-up';
 import { FiChevronUp } from "react-icons/fi";
 import Header from "../header/Header";
-import Footer from "../footer/Footer";
+import FooterTwo from "../footer/FooterTwo";
 
 
 class App extends Component{
@@ -11,7 +11,7 @@ class App extends Component{
             <div>
                 <Header headertransparent="header--transparent" colorblack="color--black" logoname="logo.png" />
                 {this.props.children}
-                <Footer />
+                <FooterTwo />
                 {/* Start Back To Top */}
                 <div className="backto-top">
                     <ScrollToTop showUnder={160}>
